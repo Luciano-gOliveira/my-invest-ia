@@ -38,7 +38,7 @@ enum TransactionsCategory {
   FOOD
   ENTERTAINMENT
   HEALTH
-  UTILILY
+  UTILITY
   SALARY
   EDUCATION
   OTHER
