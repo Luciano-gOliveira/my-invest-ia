@@ -80,6 +80,10 @@ export const TRANSACTION_PAYMENT_METHOD_OPTION = [
 
 export const TRANSACTION_CATEGORY_OPTIONS = [
   {
+    value: TransactionsCategory.OTHER,
+    label: TRANSACTION_CATEGORY_LABELS[TransactionsCategory.OTHER],
+  },
+  {
     value: TransactionsCategory.EDUCATION,
     label: TRANSACTION_CATEGORY_LABELS[TransactionsCategory.EDUCATION],
   },
@@ -98,10 +102,6 @@ export const TRANSACTION_CATEGORY_OPTIONS = [
   {
     value: TransactionsCategory.HOUSTING,
     label: TRANSACTION_CATEGORY_LABELS[TransactionsCategory.HOUSTING],
-  },
-  {
-    value: TransactionsCategory.OTHER,
-    label: TRANSACTION_CATEGORY_LABELS[TransactionsCategory.OTHER],
   },
   {
     value: TransactionsCategory.SALARY,
