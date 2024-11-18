@@ -23,7 +23,7 @@ interface UpsetTransactionParams {
 export const upsetTransaction = async (params: UpsetTransactionParams) => {
   upsetTransactionSchema.parse(params);
 
-  const { userId } = auth();
+  const { userId } = await auth();
   if (!userId) {
     throw new Error("Unauthorized");
   }
