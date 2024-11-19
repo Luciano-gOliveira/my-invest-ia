@@ -7,7 +7,6 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-  DialogTrigger,
 } from "./ui/dialog";
 import {
   Form,
@@ -115,7 +114,6 @@ const UpersetTransactionDialog = ({
         }
       }}
     >
-      <DialogTrigger asChild></DialogTrigger>
       <DialogContent>
         <DialogHeader>
           <DialogTitle>
